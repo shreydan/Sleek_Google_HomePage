@@ -39,7 +39,13 @@ html {
     border: 0px #000 solid;
     border-bottom: 4px #efd10e solid;
     border-radius: 3px;
+    transition: 0.4s;
 }
+
+#srch:focus {
+    box-shadow: 0 0 20px rgba(81, 203, 238, 1);
+    border: 1x solid rgba(81, 203, 238, 1);
+  }
 
 #srch[type=text] {
     color: #fff;
